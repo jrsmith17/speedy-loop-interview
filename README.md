@@ -2,6 +2,20 @@
 
 I chose to use the first question from the prompt for my interview take home test. I opted to make my solution more data driven than the promp called for. Since the prompt is really a touchpoint for a conversation, I thought making it data driven would make for an interesting starting point since I've been doing a lot of that at work.
 
+## Build Notes
+
+I used VS Code v1.44. I ran this on Windows 10. I use .NET Core v3.1.3. I used the C# plugin for VS Code from Microsoft v1.21.17. `dotnet --version` outputs 3.1.201.
+
+I purposefully did not include my .vscode config files as your .NET install may be different. Assuming you have .NET and VS Code installed, please do the following:
+
+1. git clone https://github.com/jrsmith17/speedy-loop-interview.git
+2. Open VS Code
+    - Install C# module from Marketplace (More details here: [https://code.visualstudio.com/docs/editor/extension-gallery])
+    - Open Folder from File Menu, select the `speedy-loop-interview` directory that you cloned.
+    - VS Code should prompt you for which environment you wish to run. Please select .NET Core (was at the top of the list for me)
+3. VS Code will take a moment to install plugins and generally setup your environment.
+4. Once done, hitting either F5 or `Run > Start Debugging` should start the process. The output window should show you output that matches the prompt.
+
 ## Assumptions Made
 
 1. The prompt didn't specify what form the input should take. It did say a directed graph, but the chances of my directed graph binary blob being the same as yours were slim so I decided to make a simple text file input.
