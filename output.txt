@@ -1,0 +1,10 @@
+distance A B C
+distance A D
+distance A D C
+distance A E B C D
+distance A E D
+numtripsmax 3 C C
+numtripsexact 4 A C
+shortest A C
+shortest B B
+numdiff 30 C C
